@@ -1,14 +1,14 @@
 <template>
   <div class="home">
     <SideNav  class="sidenav"/>
-    <MainContent class="content"/>
+    <router-view class="content"></router-view>
     <SideNavBottom />
   </div>
 </template>
 
 <script setup>
 import SideNav from '@/components/SideNav.vue'
-import MainContent from '@/components/MainContent.vue'
+// import MainContent from '@/components/MainContent.vue'
 import SideNavBottom from '@/components/SideNavBottom.vue'
 </script>
 
