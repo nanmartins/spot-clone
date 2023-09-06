@@ -11,6 +11,8 @@
 <style scoped>
 
 .side-bottom {
-  background: green;
+  background: rgb(24, 24, 24);
+  color: rgb(197, 197, 197);
+  border-radius: 7px;
 }
 </style>

@@ -11,7 +11,8 @@
 <style scoped>
 
 .main-content {
-  height: 100vh;
-  background: red;
+  background: rgb(24, 24, 24);
+  color: rgb(197, 197, 197);
+  border-radius: 7px;
 }
 </style>

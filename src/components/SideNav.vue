@@ -43,20 +43,22 @@
   display: flex;
   align-items: center;
   height: 40px;
-  padding: 4px 10px;
+  padding: 4px 12px;
 }
 
 
 ul {
-  background: rgb(18,18,18);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(24, 24, 24);
   color: rgb(197,197,197);
   list-style: none;
-  min-width: 280px;
   max-width: 400px;
   width: 100%;
   height: 100px;
-  padding: 8px 10px;
-  margin: 10px;
+  padding: 10px 10px;
+  margin: 0;
   border-radius: 7px;
   font-weight: 500;
 }

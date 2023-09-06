@@ -8,7 +8,6 @@
 
 <script setup>
 import SideNav from '@/components/SideNav.vue'
-// import MainContent from '@/components/MainContent.vue'
 import SideNavBottom from '@/components/SideNavBottom.vue'
 </script>
 
@@ -19,7 +18,8 @@ import SideNavBottom from '@/components/SideNavBottom.vue'
     "sidenav content"
     "sidebottom content";
   grid-template-columns: 420px 1fr;
-  grid-template-rows: 130px;
+  grid-template-rows: 120px;
+  gap: 7px;
   margin: 0;
   padding: 0;
   background: rgb(0, 0, 0);
