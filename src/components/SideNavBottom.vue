@@ -59,7 +59,7 @@ const showConsole = ref(() => {
 .icons-side-b-header {
   fill: rgb(145, 145, 145);
   padding: 7px;
-  margin-left: 5px;
+  margin: 0 5px;
 }
 
 /* MAIN CONTAINER */
@@ -84,7 +84,7 @@ const showConsole = ref(() => {
 
 .side-b-header-left {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   padding: 10px;
   font-weight: 500;
   cursor: pointer;
@@ -100,7 +100,7 @@ const showConsole = ref(() => {
 .side-b-header-right {
   display: flex;
   align-items: center;
-  padding: 10px;
+  /* padding: 10px; */
   box-sizing: border-box;
 }
 
@@ -117,7 +117,7 @@ const showConsole = ref(() => {
   display: flex;
   gap: 10px;
   margin: 0;
-  padding: 15px 0 10px 0;
+  padding: 10px 0 10px 0;
 }
 
 .side-b-tags-tags {
