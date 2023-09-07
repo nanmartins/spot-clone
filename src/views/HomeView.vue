@@ -13,6 +13,7 @@ import SideNavBottom from '@/components/SideNavBottom.vue'
 </script>
 
 <style scoped>
+
 .home {
   display: grid;
   grid-template-areas:
@@ -20,7 +21,7 @@ import SideNavBottom from '@/components/SideNavBottom.vue'
     "sidebottom content";
   grid-template-columns: 420px 1fr;
   grid-template-rows: 110px;
-  gap: 6px;
+  gap: 7px;
   margin: 0;
   padding: 0 2px;
   background: rgb(0, 0, 0);
