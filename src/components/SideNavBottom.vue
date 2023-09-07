@@ -27,9 +27,9 @@
       <div class="side-b-search-container">
         <svg class="icon-no-pad" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
 
-        <div>
+        <div class="side-b-search-recents">
           <span>Recentes</span>
-          <svg class="icon-no-pad icon-ml" xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg>
+          <svg class="icon-ml" xmlns="http://www.w3.org/2000/svg" height="1.2em" viewBox="0 0 320 512"><path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"/></svg>
         </div>
       </div>
 
@@ -60,6 +60,11 @@ const showConsole = ref(() => {
   fill: rgb(145, 145, 145);
   padding: 7px;
   margin: 0 5px;
+}
+
+.icon-ml {
+  fill: rgb(145, 145, 145);
+  margin-left: 10px;
 }
 
 /* MAIN CONTAINER */
@@ -138,17 +143,35 @@ const showConsole = ref(() => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 10px;
+  padding: 5px 0;
+}
+
+.side-b-search-container .icon-no-pad {
+  padding: 7px;
+}
+
+.side-b-search-container:hover .icon-no-pad {
+  background: rgb(42, 42, 42, 0.7);
+  border-radius: 50%;
+  fill: rgb(210, 210, 210);
 }
 
 .side-b-search-container span {
   font-size: 0.875rem;
 }
 
-.side-b-search-container div {
+.side-b-search-recents {
   display: flex;
+  padding-right: 10px;
 }
 
+.side-b-search-recents:hover {
+  color: rgb(210, 210, 210);
+}
+
+.side-b-search-recents:hover svg {
+  fill: rgb(210, 210, 210);
+}
 .icon-ml {
   margin-left: 10px;
 }
