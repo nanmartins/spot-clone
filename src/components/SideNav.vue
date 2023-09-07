@@ -26,9 +26,10 @@
 <style scoped>
 
 .icon {
-  fill: rgb(197,197,197);
+  fill: rgb(145, 145, 145);
   padding-right: 18px;
 }
+
 
 .side-nav {
   display: flex;
@@ -39,11 +40,19 @@
 
 .side-nav-links {
   text-decoration: none;
-  color: rgb(197,197,197);
+  color: rgb(145, 145, 145);
   display: flex;
   align-items: center;
   height: 40px;
   padding: 4px 12px;
+}
+
+.side-nav-links:hover {
+  color: rgb(210, 210, 210);
+}
+
+.side-nav-links:hover svg {
+  fill: rgb(210, 210, 210);
 }
 
 
@@ -56,7 +65,7 @@ ul {
   list-style: none;
   max-width: 400px;
   width: 100%;
-  height: 100px;
+  height: 90px;
   padding: 10px;
   margin: 0;
   border-radius: 7px;

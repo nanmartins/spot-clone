@@ -13,8 +13,8 @@ import HomeView from './views/HomeView.vue'
 
 html, body {
   font-family: 'Heebo', sans-serif;
-  margin: 4px;
-  padding: 0;
+  margin: 0;
+  padding: 4px;
   background: rgb(0, 0, 0);
 }
 </style>
