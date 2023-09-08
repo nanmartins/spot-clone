@@ -109,6 +109,10 @@ const showConsole = ref(() => {
   box-sizing: border-box;
 }
 
+.icons-side-b-header {
+  cursor: pointer;
+}
+
 .icons-side-b-header:hover {
   fill: rgb(210, 210, 210);
   background: rgba(35, 35, 35, 0.607);
