@@ -38,10 +38,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-const showConsole = ref(() => {
-  console.log('Hi')
-})
+
 </script>
 
 <style scoped>
